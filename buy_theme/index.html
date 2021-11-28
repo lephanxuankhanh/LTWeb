@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./fontawesome-5/css/all.css">
+  <title>Document</title>
+</head>
+
+<body class="body_frame">
+  <div id="web_header">
+    <div id="web_logo">
+      <div>
+        <img src="./anh/logo2.png">
+      </div>
+    </div>
+    <div id="web_bar">
+      <div id="bar-top">
+        <div id="bar-menu">
+          <ul>
+            <li>
+              <a href="#">
+                MENU MENU
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                MENU MENU
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                MENU MENU
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                MENU MENU
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="bar-iconSupport">
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fab fa-facebook-f fb"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-twitter twi"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-instagram ins"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="bar-bottom">
+        <div id="bar-iconHome">
+          <div>
+            <a href="./H2K-Store.html">
+              <i class="fas fa-home"></i>
+            </a>
+          </div>
+        </div>
+        <div id="bar-frameSearch">
+          <div>
+            <div id="bar-search">
+              <input id="bar-searchInput" type="text" placeholder="Search">
+            </div>
+            <div id="bar-buttonSearch">
+              <div>
+                <button>
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="bar_bag-user">
+          <div id="bar-bagUser">
+            <div id="bar-user">
+              <a href="#">
+                <i class="fas fa-user"></i>
+              </a>
+            </div>
+            <div id="bar-bag">
+              <a href="#">
+                <i class="fas fa-shopping-bag"></i>
+              </a>
+            </div>
+          </div>
+          <label id="bar-childMenu" for="bar-nav-checkbox">
+            <i class="fas fa-bars"></i>
+          </label>
+          <input type="checkbox" id="bar-nav-checkbox">
+          <label id="bar-overlay" for="bar-nav-checkbox"></label>
+          <nav id="bar-nav-mobile">
+            <label id="bar-mobile-close" for="bar-nav-checkbox">
+              <i class="fas fa-times"></i>
+            </label>
+            <ul id="bar-nav-mobile-list">
+              <li>
+                <a class="bar-nav-mobile-link" href="#">MENU MENU</a>
+              </li>
+              <li>
+                <a class="bar-nav-mobile-link" href="#">MENU MENU</a>
+              </li>
+              <li>
+                <a class="bar-nav-mobile-link" href="#">MENU MENU</a>
+              </li>
+              <li>
+                <a class="bar-nav-mobile-link" href="#">MENU MENU</a>
+              </li>
+              <li>
+                <a class="bar-nav-mobile-link" href="#"><i class="fas fa-sign-out-alt bar-iconSignout"></i>Log out</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="gioHang">
+    <div id="container">
+      <div class="container-first">
+        <div id="left">
+          <td> <img style=" width: 70px; float: left; margin-bottom: 20px;" src="anh\ip13.jpg" alt=""></td>
+          <td>
+            <p>Tạm tính :</p>
+          </td>
+        </div>
+        <div id="right">
+
+
+          <td>18.999.000 <sup>đ</sup></td>
+          <td><input type="number" value="1" min="1"
+              style="width: 40px; margin-top: 15px; margin-bottom: 30px;text-align: center; float: left; margin-left: 20px; ">
+          </td> <br>
+          <td>18.999.000 <sup>đ</sup></td>
+        </div>
+        <div id="center">
+          <div>
+            <p>Iphone 13</p>
+          </div>
+          <div>
+            <p>Màu : Bạc</p>
+          </div>
+
+        </div>
+      </div>
+      <br>
+
+      <hr>
+      <div class="container-second">
+        <h1>Thông tin khách hàng</h1>
+        <br>
+        <form class="check">
+            <input type="radio" id="nam" name="sex" value="Nam">
+            <label for="nam" style="margin-right: 50px;">Nam</label><br>
+            <input type="radio" id="nữ" name="sex" value="Nữ">
+            <label for="nữ">Nữ</label><br>
+        </form>
+
+        <form class="text">
+          <input style="text-indent: 7%;" type="text" placeholder="Họ và Tên">
+          <input style="text-indent: 7%;" type="text" placeholder="Số Điện Thoại">
+
+        </form>
+
+      </div>
+
+      <hr>
+      <div class="container-third">
+        <h1>Chọn hình thức nhận hàng</h1>
+
+        <form class="check2">
+            <input type="radio" id="giao tận nơi" name="ship" value="Giao tận nơi">
+            <label for="Giao tận nơi" style="margin-right: 50px;">Giao tận nơi</label><br>
+            <input type="radio" id="Nhận tại cửa hàng" name="ship" value="Nhận tại shop">
+            <label for="Nhận tại cửa hàng">Nhận tại cửa hàng</label><br>
+        </form>
+
+        <div class="select-address">
+
+          <div class="select-address1">
+            <select class="TP">
+              <option> TP.Hồ Chí Minh</option>
+              <option>Hà Nội</option>
+              <option>Đắk Lắk</option>
+              <option>Bình Dương</option>
+              <option>Huế</option>
+              <option>Đà Nẵng</option>
+              <option>Hạ Long</option>
+            </select>
+
+            <select class="QH">
+              <option> TP.Hồ Chí Minh</option>
+              <option>Hà Nội</option>
+              <option>Đắk Lắk</option>
+              <option>Bình Dương</option>
+              <option>Huế</option>
+              <option>Đà Nẵng</option>
+              <option>Hạ Long</option>
+            </select>
+          </div>
+          <div class="select-address2">
+            <select class="Xa">
+              <option> TP.Hồ Chí Minh</option>
+              <option>Hà Nội</option>
+              <option>Đắk Lắk</option>
+              <option>Bình Dương</option>
+              <option>Huế</option>
+              <option>Đà Nẵng</option>
+              <option>Hạ Long</option>
+            </select>
+            <input class="home" type="text " placeholder="Số nhà, tên đường">
+          </div>
+        </div>
+        <input style="text-indent: 5%;" class="note" type="text" placeholder="Nhập ghi chú (nếu có )">
+
+        <form class="check-note">
+            <input type="checkbox" value="Gọi người khác nhận hàng">
+            <label style="margin-right: 50px;">Gọi người khác nhận hàng</label><br>
+            <input type="checkbox" value="Xuất hóa đơn công ty">
+            <label>Xuất hóa đơn công ty</label><br>
+        </form>
+      </div>
+      <hr>
+      <div class="container-final">
+        <div id="left-final">
+          <td>
+            <p> <strong>Tổng Tiền :</strong> </p>
+          </td>
+        </div>
+        <div id="right-final">
+          <td style="margin-top: 30px;">18.999.000 <sup>đ</sup></td>
+        </div>
+
+        <button>
+          <h1> <strong>Đặt Hàng</strong> </h1>
+        </button>
+
+      </div>
+    </div>
+  </div>
+  <div id="web_footer">
+    <div id="footer_container">
+        <div class="footer-part">
+            <h3>Về Trang Chủ</h3>
+            <ul>
+                <li class="footer-partList">
+                    <a href="#">
+                        Giới thiệu về shop
+                    </a>
+                </li>
+                <li class="footer-partList">
+                    <a href="#">
+                        Điều khoản
+                    </a>
+                </li>
+                <li class="footer-partList">
+                    <a href="#">
+                        Chính sách bảo mật
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-part">
+            <h3>Hỗ trợ khách hàng</h3>
+            <ul>
+                <li class="footer-partList">
+                    <a href="#">
+                        Điều kiện giao dịch chung
+                    </a>
+                </li>
+                <li class="footer-partList">
+                    <a href="#">
+                        Hướng dẫn mua hàng
+                    </a>
+                </li>
+                <li class="footer-partList">
+                    <a href="#">
+                        Chính sách giao hàng
+                    </a>
+                </li>
+                <li class="footer-partList">
+                    <a href="#">
+                        Hướng dẫn thanh toán
+                    </a>
+                </li>
+                <li class="footer-partList">
+                    <a href="#">
+                        Chính sách bảo hành
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-part">
+            <h3>Đơn vị vận chuyển</h3>
+            <ul>
+                <li class="footer-partList">
+                    <a href="#">
+                        Viettel Post
+                    </a>
+                </li>
+                <li class="footer-partList">
+                    <a href="#">
+                        Giao hàng nhanh
+                    </a>
+                </li>
+                <li class="footer-partList">
+                    <a href="#">
+                        Giao hàng tiết kiệm
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-part">
+            <h3>Theo dõi chúng tôi</h3>
+            <ul>
+                <li class="footer-partList">
+                    <a href="#">
+                        FaceBook
+                    </a>
+                </li>
+                <li class="footer-partList">
+                    <a href="#">
+                        Twitter
+                    </a>
+                </li>
+                <li class="footer-partList">
+                    <a href="#">
+                        Instagram
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="web_author">
+    <div id="author_container">
+        <div id="author-info">
+            <p>Đây là web phục vụ việc học tập không nhằm mục đích kinh doanh. Bản quyền thuộc H2K</p>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
